@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+a {
+    cursor: auto;
+}
+
+.tudo {
+    position: absolute;
+    width: 100%;
+    top: 37%;
+    display: block;
+    margin: auto;
+}
+
+.tudo button {
+    background-color: orange;
+    color: white;
+    display: block;
+    margin: auto;
+    padding: 40px 100px;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 2em;
+    border: 2px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+.tudo button:hover {
+    background-color: rgb(145, 94, 0);
+    transition: 500ms;
+}
+
+.roberto {
+    position: absolute;
+    width: 100%;
+    padding-top: 8%;
+    color: white;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.roberto img {
+    border: 2px solid white;
+    min-width: 30%;
+}
+
+.roberto h1 {
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media (max-width: 400px) {
+    .tudo button {
+        padding: 30px 60px;
+        left: 15%;
+    }
+}
+
+::selection {
+    background-color: orange;
+}
